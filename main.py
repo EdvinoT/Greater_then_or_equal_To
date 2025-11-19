@@ -1,5 +1,7 @@
-first_n = int(input("What is the first number " ))
-second_n = int(input("What is the second number " ))
+first_n = int(input("What is the first number? " ))
+second_n = int(input("What is the second number? " ))
+
+print("The greater number is")
 
 if first_n > second_n:
     print (first_n)
