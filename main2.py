@@ -1,10 +1,12 @@
 def sum():
-    sum_list=[1,6,4,8,10,-4,-7.4,6,-6,]
-    posi_n=[]
+    sum_list=[1,6,4,8,10,-4,-7,4,6,-6,]
+    total = 0
     for number in sum_list:
         if number > 0:
-            posi_n.append(number)
-        print(posi_n)
+            total += number
+    print(sum_list)
+    print("Sum of positive numbers is:")
+    return total 
     
-    return sum()
+print(sum())
 
